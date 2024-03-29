@@ -1,0 +1,41 @@
+
+/* style grid */
+#grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#grid > div {
+    display: flex;
+    flex-direction: row;
+}
+#grid > div > div > div.forest {
+    background-color: green;
+}
+#grid > div > div > div.full {
+    background-color: orangered;
+}
+#grid > div > div > div.burnt {
+    background-color: black;
+}
+#grid > div > div > div.ground {
+    background-color: white;
+}
+#grid > div > div > div {
+    width: 5px;
+    height: 5px;
+}
+
+/* body */
+
+.app {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+}
+
+.app .right-sidebar {
+    display: flex;
+    flex-direction: column;
+}
